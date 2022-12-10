@@ -10,7 +10,7 @@ table{
 
 
 img{
-    padding-left: 45px;
+    padding-left: 220px;
 }
 
 #idMensaje{
@@ -33,4 +33,8 @@ button{
     margin: 3px;
     width: 350px;
     height: 25px;
+}
+
+.tablaAncha{
+    width: 721px;
 }
