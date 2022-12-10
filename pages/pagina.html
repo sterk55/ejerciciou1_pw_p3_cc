@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/diseños.css">
+    <script src="../js/funciones.js"></script>
     <title>Ejercicio 1</title>
 </head>
 <body>
+    <header></header>
+    <nav></nav>
+    <section>
+        <h1>Juego Pokémon</h1>
+        <h2 id="idInicial">Seleccione el Pokémon correcto</h2>
+
+    
+
+        
+
+        <table>
+            <tr>
+                <td> 
+                    <img id="idPokemonNegro" style="display: block;" src="../img/pnegro.jpg" alt="No se encuentra la imagen">
+                    <img id="idPokemonColor" style="display: none;" src="../img/pcolor.jpg" alt="No se encuentra la imagen">
+                </td>
+            </tr>
+            <tr>
+                <td><button onclick="incorrecta()">keldeo-ordinary</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="incorrecta()">drilbur</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="incorrecta()">ninjask</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="correcta()">excadrill</button></td>
+            </tr>
+            <tr>
+                <td><label style="display: none;"  id="idMensaje" for=""></label></td>
+            </tr>
+            <tr>
+                <td><button onclick="reiniciar()">Reiniciar</button></td>
+            </tr>
+        </table>
+      
+
+    </section>
+    <footer></footer>
     
 </body>
 </html>
